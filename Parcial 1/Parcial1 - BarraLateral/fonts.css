@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?efrksx');
+  src:  url('fonts/icomoon.eot?efrksx#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?efrksx') format('truetype'),
+    url('fonts/icomoon.woff?efrksx') format('woff'),
+    url('fonts/icomoon.svg?efrksx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-python:before {
+  content: "\e900";
+  color: #3776ab;
+}
+.icon-home:before {
+  content: "\e901";
+}
+.icon-stack:before {
+  content: "\e92e";
+}
+.icon-folder:before {
+  content: "\e92f";
+}
+.icon-folder-open:before {
+  content: "\e930";
+}
+.icon-enlarge:before {
+  content: "\e989";
+}
+.icon-equalizer:before {
+  content: "\e992";
+}
+.icon-stats-bars:before {
+  content: "\e99c";
+}
+.icon-stats-bars2:before {
+  content: "\e99d";
+}
+.icon-fire:before {
+  content: "\e9a9";
+}
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-radio-checked2:before {
+  content: "\ea55";
+}
+.icon-paragraph-justify:before {
+  content: "\ea7a";
+}
