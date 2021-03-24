@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Formulario Boostrap - Responsive</title>
+
+
+    <!--Hugo Ramos Zarate - 18100746 - Ingeneria en sistemas computacionales-->
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Nuestro css-->
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" th:href="@{/css/index.css}">
+
+</head>
+
+<body>
+
+    <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+
+                <!--Aqui se invoca a la imagen avatar - Logotipo "Usuario" y se muestra en el formulario-->
+                <div class="col-13 user-img">
+                    <img src="static/img/avatar.png" </div>
+                </div>
+
+
+                <!--Apartir de aqui se creara dicho formulario-->
+                <!--Col-12: su funcion es mostrar en pantalla al ancho total-->
+                <form class="col-13">
+                    <!--Crea una clase en la cual hay un grupo de objetos que ayudan a insertar el nombre se usuario-->
+                    <div class="form-group" id="user-group">
+
+                        <input type="text" class="form-control" placeholder="       Nombre de usuario" />
+
+                    </div>
+                    <!--Crea una clase en la cual hay un grupo de objetos que ayudan a insertar la password-->
+                    <div class="form-group" id="contrasena-group">
+
+                        <input type="password" class="form-control" placeholder="       Contrasena" />
+
+                    </div>
+                    <!--Crea un boton cuya accion es ingresar al sistema-->
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i> Ingresar</button>
+                </form>
+
+
+                <!--Fuera de la caja imprime el mensaje -->
+                <div class="col-13 forgot">
+                    <a href="#">¿Olvidaste tu contrasena?</a>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+</html>
