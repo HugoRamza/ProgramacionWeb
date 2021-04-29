@@ -1,0 +1,63 @@
+/*en el cuerpo muestra la imagen de wallpaper*/
+body{
+    background: url(../img/wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+/*selecciona "main-section" para agregar margin y un padding de 0 (cuestiones visuales) */
+.main-section{
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 0;
+}
+/*selecciona "modal-content y crea una caja con una opacidad, un padding de 0 y 20 px  y una sombra*/
+.modal-content{
+    background-color: #3b4652;
+    opacity: .95;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+    padding-top: 100px;
+    
+    
+}
+/*selecciono user-img para mostrar un margen-top y al bottom */
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px; 
+}
+/*le dio un alto y un ancho ala imagen seleccionada de .user-img y le da un borde */
+.user-img img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 3px #000000;
+    border-radius: 50%;   
+}
+/*  selecciona el ".form-group y realiza la invocacion de iconos correspondientes y crea un margen,espacio y da color "*/
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+.form-group#user-group::before{
+    content: "\f007";
+}
+
+.form-group#contrasena-group::before{
+    content: "\f023";
+}
+
+button{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+
+.forgot{
+    padding: 10px 0;
+}
+
+.forgot a{
+    color: white;
+}
+    
